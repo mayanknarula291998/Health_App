@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HeakthApp/app/src/main/res/drawable/bg_overlay.xml" value="0.2203125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HeakthApp/app/src/main/res/drawable/bg_round_45.xml" value="0.2203125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HeakthApp/app/src/main/res/drawable/bg_round_5.xml" value="0.2203125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HeakthApp/app/src/main/res/drawable/cardciew_boarder.xml" value="0.2203125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HeakthApp/app/src/main/res/drawable/ic_ambulance_60.xml" value="0.9607142857142857" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HeakthApp/app/src/main/res/drawable/ic_call.xml" value="0.2203125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HeakthApp/app/src/main/res/drawable/ic_doctor_60.xml" value="0.2203125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HeakthApp/app/src/main/res/drawable/ic_hospital_60.xml" value="0.2203125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HeakthApp/app/src/main/res/drawable/ic_medical_60.xml" value="0.2203125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HeakthApp/app/src/main/res/drawable/ic_offline.xml" value="0.2203125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HeakthApp/app/src/main/res/drawable/ic_online.xml" value="0.2203125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HeakthApp/app/src/main/res/drawable/ic_oxygen_60.xml" value="0.2203125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HeakthApp/app/src/main/res/drawable/ic_whatsapp.xml" value="0.2203125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HeakthApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HeakthApp/app/src/main/res/layout/cat_item.xml" value="0.33" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HeakthApp/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HeakthApp/app/src/main/res/layout/fragment_home_two.xml" value="0.14" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HeakthApp/app/src/main/res/layout/image_slider_layout_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HeakthApp/app/src/main/res/layout/kist_item.xml" value="0.33" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HeakthApp/app/src/main/res/layout/list_ambulance.xml" value="0.22" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HeakthApp/app/src/main/res/layout/list_medical_data.xml" value="0.5" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HeakthApp/app/src/main/res/layout/list_model_data.xml" value="0.5" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HeakthApp/app/src/main/res/layout/list_oxygen.xml" value="0.33" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HeakthApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
