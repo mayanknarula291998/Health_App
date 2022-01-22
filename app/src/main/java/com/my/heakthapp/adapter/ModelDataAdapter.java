@@ -62,7 +62,6 @@ public class ModelDataAdapter extends RecyclerView.Adapter<ModelDataAdapter.View
     @SuppressLint("ResourceAsColor")
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        Log.d("====TYPE", "" + holder.Type);
         if (holder.Type == DOCTOR) {
             Glide.with(context).load(context.getDrawable(R.drawable.ic_doctor_60)).into(holder.imageView);
         } else if (holder.Type == HOSPITAL) {

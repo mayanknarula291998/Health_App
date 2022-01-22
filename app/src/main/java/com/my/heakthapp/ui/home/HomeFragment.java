@@ -3,6 +3,7 @@ package com.my.heakthapp.ui.home;
 import android.annotation.SuppressLint;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -89,6 +90,11 @@ public class HomeFragment extends Fragment implements ItemClick {
             @Override
             public void onChanged(List<Integer> integers) {
                 if (integers.size() > 0) {
+                    Log.d("====SIZE", "" + integers);
+                    for (Integer integer : integers){
+                        Log.d("====TYPE", "" + integer);
+                    }
+
                     binding.freshRecommendations.setAdapter(new ModelDataAdapter(integers, getActivity(), HomeFragment.this::onClick));
                     binding.freshRecommendations.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false));
                 }

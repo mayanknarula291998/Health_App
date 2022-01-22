@@ -18,16 +18,21 @@ public class HomeViewModel extends AndroidViewModel {
 
     private final MutableLiveData<List<CategoryModel>> categoryLiveData;
     private final List<CategoryModel> categoryModels = new ArrayList<>();
+
     private final List<Integer> modelListOne = new ArrayList<>();
     private final List<Integer> modelListTwo = new ArrayList<>();
     private final List<Integer> modelListThree = new ArrayList<>();
-    private final MutableLiveData<List<Integer>> liveData;
+    private final MutableLiveData<List<Integer>> liveDataOne;
+    private final MutableLiveData<List<Integer>> liveDataTwo;
+    private final MutableLiveData<List<Integer>> liveDataThree;
 
 
     public HomeViewModel(@NonNull Application application) {
         super(application);
         categoryLiveData = new MutableLiveData<>();
-        liveData = new MutableLiveData<>();
+        liveDataOne = new MutableLiveData<>();
+        liveDataTwo = new MutableLiveData<>();
+        liveDataThree = new MutableLiveData<>();
     }
 
     public LiveData<List<CategoryModel>> getCategories() {
@@ -51,8 +56,8 @@ public class HomeViewModel extends AndroidViewModel {
         modelListOne.add(1);
         modelListOne.add(3);
 
-        liveData.setValue(modelListOne);
-        return liveData;
+        liveDataOne.setValue(modelListOne);
+        return liveDataOne;
     }
 
     public LiveData<List<Integer>> getTopDoctors() {
@@ -64,8 +69,8 @@ public class HomeViewModel extends AndroidViewModel {
         modelListTwo.add(0);
         modelListTwo.add(0);
 
-        liveData.setValue(modelListTwo);
-        return liveData;
+        liveDataTwo.setValue(modelListTwo);
+        return liveDataTwo;
     }
     public LiveData<List<Integer>> getTopHospitals() {
         modelListThree.add(1);
@@ -76,8 +81,8 @@ public class HomeViewModel extends AndroidViewModel {
         modelListThree.add(1);
         modelListThree.add(1);
 
-        liveData.setValue(modelListThree);
-        return liveData;
+        liveDataThree.setValue(modelListThree);
+        return liveDataThree;
     }
 
 }
