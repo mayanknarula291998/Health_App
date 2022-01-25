@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="theme_color">#FFC107</color>
-
+    <color name="theme_color">#0000FF</color>
+    <color name="royal_blue">#000080</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FFC107</color>
     <color name="purple_700">#000</color>
